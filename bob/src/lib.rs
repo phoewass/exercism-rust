@@ -1,6 +1,5 @@
 pub fn reply(request: &str) -> &'static str{
     let mut reply = "Whatever.";
-    println!("{}",t);
     if request.is_empty() {
         reply = "Fine. Be that way!"
     } else if request.ends_with("?") {
